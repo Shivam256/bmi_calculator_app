@@ -1,16 +1,16 @@
 import 'dart:ffi';
 
-import 'package:bmi_calculator/results_page.dart';
+import 'package:bmi_calculator/screens/results_page.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-import './icon_card.dart';
-import './reusable_card.dart';
-import './bottom_button.dart';
+import '../components/icon_card.dart';
+import '../components/reusable_card.dart';
+import '../components/bottom_button.dart';
 
-import './constants.dart';
-import './results_page.dart';
-import './calculator_brain.dart';
+import '../constants.dart';
+import 'results_page.dart';
+import '../calculator_brain.dart';
 
 enum Gender {
   MALE,
